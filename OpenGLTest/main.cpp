@@ -32,6 +32,7 @@ int main(int argc,char** argv) {
 	glutInit(&argc,argv);
 	glutInitDisplayMode(GLUT_RGBA);
 	glutInitWindowSize(512, 512);
+	//使用freeglut需要使用以下两行
 	//glutInitContextVersion(4, 2);
 	//glutInitContextProfile(GLUT_CORE_PROFILE);
 	glutCreateWindow("123");
